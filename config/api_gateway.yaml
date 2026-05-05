@@ -1,0 +1,13 @@
+# API 网关与代理配置（示例模板）
+# 真实密钥请使用环境变量或复制为 api_gateway.local.yaml（已加入 .gitignore）
+
+llm:
+  provider: anthropic
+  base_url: https://your-vps.example.com/v1  # Nginx 反向代理到官方 API
+  api_key_env: ANTHROPIC_API_KEY             # 从环境变量读取，勿写明文
+
+proxy:
+  enabled: true
+  verify_ssl: true
+  timeout_seconds: 120
+  max_concurrent: 8

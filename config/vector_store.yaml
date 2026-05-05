@@ -1,0 +1,6 @@
+# 向量检索（Chroma）持久化路径；可按部署修改
+provider: chroma
+
+chroma:
+  persist_directory: .chroma/ironclaw
+  collection: black_metal_basis

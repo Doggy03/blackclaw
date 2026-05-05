@@ -1,0 +1,10 @@
+# IronClaw-Macro-Agent — 核心依赖（版本可按环境微调）
+# OpenClaw 本体为 npm Gateway：npm install -g openclaw@latest（与本 Python 流水线互补）
+numpy>=1.24.0
+pandas>=2.0.0
+requests>=2.31.0
+scikit-learn>=1.3.0
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# 向量入库（Chroma）为可选：`pip install -r requirements-vectors.txt`

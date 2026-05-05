@@ -1,0 +1,32 @@
+# Local venv (may be created on your machine)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+
+# Secrets — 勿提交真实 API Key（使用环境变量或本地覆盖文件）
+config/api_gateway.local.yaml
+config/secrets.yaml
+
+# 输出与向量库
+outputs/
+*.pdf
+*.db
+.chroma/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
