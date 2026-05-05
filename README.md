@@ -1,5 +1,7 @@
 # IronClaw Macro Agent
 
+**GitHub:** [github.com/Doggy03/blackclaw](https://github.com/Doggy03/blackclaw)
+
 An AI-driven quantitative and qualitative research system designed for the black metals commodity market (Iron Ore, Steel Rebar, Coke PCI).
 
 This repository implements the **Python research pipeline** (data scraping, macro reasoning hooks, RF signal fusion, vector snapshot persistence). **[OpenClaw](https://docs.openclaw.ai/) is a separate self-hosted Gateway** (Node/npm) for multi-agent routing and channels; pair it when you want the Gateway to orchestrate personas and tools outside this codebase.
